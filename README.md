@@ -17,3 +17,9 @@ It should have:
 - [ ] There should be a mock Log in and Sign up window.  
 - [ ] when resizing the window at a certain width the nav bar turns into a burger menu.  
 - [ ] there needs to be a functional cart that can have "products" added or removed by user.  
+- [ ] Clicking the back/return button should maintain the shopping carts items, and also return the user to where they were previously while maintaining the mock Log in user.
+- [ ] Contacting should send an email to my professional email similar to my personal web page.
+
+##Optional goals
+
+- [ ] Icons such as an envelope w/ a heart for the web page icon. that opens when mouse clicking/tapping it.
