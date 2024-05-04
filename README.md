@@ -23,3 +23,4 @@ It should have:
 ##Optional goals
 
 - [ ] Icons such as an envelope w/ a heart for the web page icon. that opens when mouse clicking/tapping it.
+- [ ] Background should be a tiled background that seamlessly blends together and runs off screen for a full background.
