@@ -4,6 +4,11 @@
     font-family: "Monico", monospace;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .button {
  border: none;
  border-radius: 10px;
@@ -26,3 +31,27 @@
     background-color: #b875ff;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #b875ff;
+    box-shadow: 5px 5px 5px black;
+}
+
+.topnav a{
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: #d977d7;
+    color:black;
+}
+
+.topnav a.active{
+    background-color: #ed1552;
+    color: whitesmoke;
+}
