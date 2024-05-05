@@ -1,10 +1,9 @@
-* {
-    display: block;
-    padding-left: 2%;  
+* { 
     font-family: "Monico", monospace;
 }
 
 body {
+    display: block;
     margin: 0;
     padding: 0;
 }
@@ -55,3 +54,39 @@ body {
     background-color: #ed1552;
     color: whitesmoke;
 }
+
+.dealWrapper {
+    display: grid;
+    grid-template-areas:
+        'leftLarge leftLarge leftLarge topRight topRight'
+        'leftLarge leftLarge leftLarge bottomRight bottomRight'
+        'bottomDeal bottomDeal bottomDeal bottomDeal bottomDeal';
+    gap: 2px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.leftLarge {
+    grid-area: leftLarge;
+}
+
+.topRight {
+    grid-area: topRight;
+}
+
+.bottomRight {
+    grid-area: bottomRight;
+}
+
+.bottom {
+    grid-area: bottomDeal;
+}
+
+.dealWrapper > div {
+    background-color: #d977d7;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
