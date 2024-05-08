@@ -86,7 +86,24 @@ body {
 .dealWrapper > div {
     background-color: #d977d7;
     color: black;
-    text-align: center;
-    padding: 20px 0;
+    padding: 0;
+    text-wrap: unwrap;
     font-size: 20px;
+}
+
+.bargain{
+    display: inline;
+    margin: auto;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px purple;
+    color: white;
+    border: 12px rgb(128, 0, 0);
+}
+
+.bargainPrice {
+    font-size: 50px;
+}
+
+.bargainCents{
+    font-weight: 900; 
 }
