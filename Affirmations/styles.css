@@ -64,41 +64,105 @@ body {
 
 .dealWrapper {
     display: grid;
-    grid-template-areas:
-        'leftLarge leftLarge leftLarge topRight topRight'
-        'leftLarge leftLarge leftLarge bottomRight bottomRight'
-        'bottomDeal bottomDeal bottomDeal bottomDeal bottomDeal';
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 100px ;
     gap: 2px;
     background-color: whitesmoke;
     padding: 15px;
 }
 
-.leftLarge {
-    grid-area: leftLarge;
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 
-.topRight {
-    grid-area: topRight;
+.item2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
-.bottomRight {
-    grid-area: bottomRight;
+.item3{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
-
-.bottom {
-    font-size: 10px;
-    grid-area: bottomDeal;
+.item4{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .dealWrapper > div {
     background-color: #d977d7;
     color: black;
-    padding: 0;
+}
+
+.homeDeal {
+    display: grid;
+}
+
+.multiDeal{
+    grid-template-columns: 70px 50px 50px 20px 50px 30px 20px;
+    grid-template-rows: 20px 10px;
+    column-gap: 20px;
+}
+
+.mDitem{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.three{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.threeNine{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.mDOr{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.five{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.fiveNine {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.each{
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 
 .bargain{
-    display: inline-block;
-    margin: auto;
     font-weight: 900;
     text-shadow: 5px 5px 5px purple;
     color: white;
@@ -107,8 +171,4 @@ body {
 
 .bargainPrice {
     font-size: 50px;
-}
-
-.bargainCents{
-    font-weight: 900; 
 }
