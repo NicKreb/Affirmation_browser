@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option1, .option2 {
+    border: 2px palevioletred solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option1 i, .option2 i{
+    font-size: 40px;
+}
+
+.orderWrapper {
+    height: 400px;
+    width: 1200px;
+    border: 2px lightgray solid;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px lightgray;
+}
+
+.titleBar{
+    display: flex;
+    text-align: center;
+    background-color: maroon;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.optionWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

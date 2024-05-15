@@ -162,6 +162,11 @@ body {
     grid-row-end: 1;
 }
 
+/*
+.homeDeal{
+    display: flex;
+}
+*/
 .bargain{
     font-weight: 900;
     text-shadow: 5px 5px 5px purple;
