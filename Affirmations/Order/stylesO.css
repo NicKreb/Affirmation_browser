@@ -18,6 +18,11 @@
     font-size: 40px;
 }
 
+.option1:hover, .option2:hover{
+    cursor: pointer;
+    border: 5px palevioletred solid;
+}
+
 .orderWrapper {
     height: 400px;
     width: 1200px;
@@ -37,11 +42,15 @@
     align-items: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .optionWrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.or{
+    padding: 20px;
 }

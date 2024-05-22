@@ -61,15 +61,24 @@ body {
     color: whitesmoke;
 }
 
+
+.wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
 /* Homepage deals & combos */
 
 .dealWrapper {
-    justify-content: center;
     display: grid;
     grid-template-columns: 300px 200px 200px 200px;
     grid-template-rows: 200px 200px 100px;
     gap: 10px;
     padding: 15px;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
 .item1{
@@ -78,6 +87,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     background-color: #cf5cec;
+    border-radius: 10px;
 }
 
 .item2{
@@ -86,6 +96,7 @@ body {
     grid-column-start: 3;
     grid-column-end: 4;
     background-color: #e45870;
+    border-radius: 10px;
 }
 
 .item3{
@@ -94,6 +105,7 @@ body {
     grid-column-start: 3;
     grid-column-end: 4;
     background-color: #ec5dd6;
+    border-radius: 10px;
 }
 .item4{
     grid-row-start: 3;
@@ -101,6 +113,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 4;
     background-color: #ed50bb;
+    border-radius: 10px;
 }
 
 .dealWrapper > div {
@@ -224,4 +237,52 @@ body {
 
 .bargainPrice {
     font-size: 50px;
+}
+
+/* menu ad */
+
+.menu_ad_title{
+    position: relative;
+    left: 15%;
+    color: rgb(84, 84, 84);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.menu_ad_wrapper{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.menu_ad{
+    width: 750px;
+    height: 300px;
+    background-color: rgb(128, 0, 0);
+    border-radius: 10px;
+}
+
+.menu_icon{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    left: 10%;
+    top: 25%;
+}
+
+.menu_button{
+    position: relative;
+    height: 60px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    top: 30%;
+    left: 5%;
+}
+
+.menu_button:hover{
+ cursor: pointer;
 }
