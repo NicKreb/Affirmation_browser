@@ -1,0 +1,20 @@
+.title_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    border: rgb(104, 12, 55) solid 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px 10px 10px rosybrown;
+    background-color: rgb(255, 132, 191);
+    color: rgb(255, 255, 255);
+}
+
+.icon_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
