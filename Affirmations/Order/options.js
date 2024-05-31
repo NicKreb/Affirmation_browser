@@ -1,4 +1,4 @@
-let options = null;
+let options = 0;
 
 function personal_option() {
     if( options != 0){
