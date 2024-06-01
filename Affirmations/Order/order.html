@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="/Affirmations/styles.css">
 
         <script src="https://kit.fontawesome.com/2eafde2958.js" crossorigin="anonymous"></script>
-        <script src="/Affirmations/Order/options.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="topnav">
@@ -26,7 +25,7 @@
     <div class="orderWrapper">
         <div class="titleBar"><p>HOW DO YOU WANT TO RECIEVE YOUR ORDER?</p></div>
         <div class="optionWrapper">
-            <a href="/Affirmations/Order/Option1_order/option1.html" onclick="personal_option(options)"><div class="option1">
+            <a href="/Affirmations/Order/Option1_order/option1.html" id="option1"><div class="option1">
                 <i class="fa-solid fa-hand-holding-heart"></i>
                 <p>Option 1</p>
                 <ul>
@@ -35,7 +34,7 @@
                 </ul>
             </div></a>
             <p class="or"> ~or~ </p>
-            <a href="/Affirmations/Order/Option1_order/option1.html" onclick="giver_option(options)"><div class="option2">
+            <a href="/Affirmations/Order/Option1_order/option1.html" id="option2"><div class="option2">
                 <i class="fa-solid fa-hand-holding-hand"></i>
                 <p>Option 2</p>
                 <ul>
@@ -46,4 +45,6 @@
         </div>
     </div>
   </div>
+
+  <script src="/Affirmations/Order/options.js" crossorigin="anonymous"></script>
 </body>
