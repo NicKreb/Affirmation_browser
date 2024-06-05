@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Affirmations/styles.css">
-    <link rel="stylesheet" href="/Affirmations/Order/order_options_styles.css">
+    <link rel="stylesheet" href="/Affirmations/Order/Option1_order/order_options_styles.css">
 
     <script src="https://kit.fontawesome.com/2eafde2958.js" crossorigin="anonymous"></script>
+    <!-- <script src="/Affirmations/Order/options.js" crossorigin="anonymous"></script> -->
+    <script src="/Affirmations/Order/Option1_order/onload_order.js" crossorigin="anonymous"></script>
     <title>Option 1</title>
 </head>
-<body>
+<body onload="onLoad()">
     <div class="topnav">
         <a class="active" href="/Affirmations/Homepage.html"><i class="fa-solid fa-house"></i></i></a>
         <a href="/Affirmations/Order/order.html">ORDER ONLINE</a>
@@ -21,15 +23,15 @@
         <img src="" alt="">
         <a class="signIn">SIGN IN & EARN REWARDS</a>
     </div>
-    <div class="icon_wrapper"><i class="fa-solid fa-hand-holding-heart title_icon"></i></div>
+    <div class="icon_wrapper" id="icon_wrapper"></div>
 
-    <h2>I am...</h2>
+    <h2 id="item_1"></h2>
     <ul>
         <li>item 1</li>
         <li>item 2</li>
         <li>item 3</li>
     </ul>
-    <h2>I will...</h2>
+    <h2 id="item_2"></h2>
     <ul>
         <li>item 1</li>
         <li>item 2</li>
