@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
@@ -13,12 +13,12 @@
             <a class="active" href="/Affirmations/Homepage.html"><i class="fa-solid fa-house"></i></i></a>
             <a href="/Affirmations/Order/order.html">ORDER ONLINE</a>
             <a href="/Affirmations/About/about.html">ABOUT</a>
-            <a href="/Affirmations/Order/Option1_order/option1.html">MENU</a>
+            <a href="/Affirmations/Menu/Menu.html" id="menu">MENU</a>
             <a href="">COUPONS</a>
             <a href="/Affirmations/Rewards/rewards.html">REWARDS</a>
             <a href="">GIFT CARDS</a>
-            <img src="" alt="">
             <a class="signIn">SIGN IN & EARN REWARDS</a>
+            <a href="/Affirmations/Shopping Cart/shoppingCart.html"><i class="fa-solid fa-cart-shopping fa-flip-horizontal" id="cart"></i></a>
         </div>
         
         <!-- Deals -->
@@ -52,10 +52,15 @@
         <div class="menu_ad_wrapper">
             <div class="menu_ad">
                 <i class="fa-solid fa-book menu_icon"></i>
-                <a class="menu_link"><div class="menu_button pink">MENU</div></a>
+                <a class="menu_link" href="/Affirmations/Menu/Menu.html"><div class="menu_button pink">MENU</div></a>
             </div>
         </div>
     </div>
     </body>
+    <script>
+        localStorage.setItem('options', 'all');
+    </script>
+    <script src="/Affirmations/Order/options.js" crossorigin="anonymous"></script>
+    
     <footer></footer>
 </html>
